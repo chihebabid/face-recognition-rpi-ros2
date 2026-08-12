@@ -65,10 +65,13 @@ vcpkg_installed/
 *.dwo
 
 # test output & cache
+*.onnx
+
 Testing/
 .cache/
 
 .idea/
-build/
-install/
-log/
+vision_ai/.idea/
+vision_ai/face_db/
+vision_ai/models/
+
