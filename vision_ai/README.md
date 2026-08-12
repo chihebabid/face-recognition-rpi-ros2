@@ -39,12 +39,11 @@ The node initializes libcamera, loads ONNX models, loads person database, and be
 ### ROS2 Topics
 
 **Published:**
-- `/image_output` - Annotated frames with detections
-- `/detections` - Detected persons with IDs
+- `cam/image` - Annotated frames with detections
 
 **Subscribed:**
-- `/camera/control` - Control commands (start/stop)
-- `/servo/angle` - Servo angle commands
+- `cam/param` - Camera control commands (start/stop)
+- `cam/param/servo/angle` - Servo angle commands
 
 ## Dependencies
 
